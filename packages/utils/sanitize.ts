@@ -21,6 +21,10 @@ const zodTryParse = <T extends z.ZodType>(
   const result = zodType.safeParse(data);
   if (result.success) {
     return result.data;
+    // Uncomment to check the Zod errors
+    // }
+    // else {
+    //   console.error(result)
   }
   return undefined;
 };
