@@ -6,8 +6,8 @@ import { bech32 } from "bech32";
 import _, { cloneDeep } from "lodash";
 import path from "path";
 
-import { instantiateNftLaunchpad } from "./deployNftLaunchpad";
 import { deployDA0DA0 } from "./dao-dao/deployDA0DA0";
+import { instantiateNftLaunchpad } from "./deployNftLaunchpad";
 import { deployNftLaunchpad } from "./nft-launchpad/deployNftLaunchpad";
 import { InstantiateMsg as MarketplaceVaultInstantiateMsg } from "../../contracts-clients/nft-marketplace/NftMarketplace.types";
 import {
